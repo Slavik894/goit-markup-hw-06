@@ -669,6 +669,9 @@ margin-bottom: 8px;
   }
 }
 @media screen and (min-width: 1158px){
+  .advantages-page {
+    padding: 120px 0;
+  }
  
   .adv-item-icon {
     background-color: #f4f4fd;
@@ -813,6 +816,9 @@ margin-bottom: 8px;
   }
 }
 @media screen and (min-width: 1158px){
+  .our-team-page{
+    padding: 120px 0;
+  }
   .our-team-page-container{
     width: 100%;
   }
