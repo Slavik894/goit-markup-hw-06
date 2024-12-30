@@ -698,3 +698,128 @@ margin-bottom: 8px;
 
 }
 
+/* our-team-page */
+
+.page-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+
+.our-team-page {
+  background-color: #f4f4fd;
+  padding: 96px 0;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  justify-content: center;
+}
+
+
+.team-member {
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  letter-spacing: 0.02em;
+   text-align: center;
+
+  }
+.team-det {
+  text-align: center;
+  padding: 32px 0;
+  width: 232px;
+  margin: 0 auto;
+  
+}
+.team-det .item-header {
+  margin-bottom: 8px;
+}
+.team-det .description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.member-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.portfolio-list .item-header {
+  margin-top: 0;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 8px;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+}
+
+
+.media-links .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.link:hover,
+.link:focus {
+  background-color: #404bbf;
+}
+
+.sml-icon {
+  fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px){
+  .our-team-page-container{
+    width: 584px;
+  }
+  .team-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 64px;
+  }
+}
+@media screen and (min-width: 1158px){
+  .our-team-page-container{
+    width: 100%;
+  }
+   .team-member{
+    width: calc((100% - 1 * 72px) / 4);
+    gap: 24px;
+   }
+  
+}
+
